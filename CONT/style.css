@@ -1,0 +1,89 @@
+a{
+ text-decoration: none;
+ color: black;
+}
+
+@font-face {
+   font-family: myFirstFont;
+   src: url(cursive2.otf);
+}
+
+div {
+  font-family: Arial;
+  font-size:20px;
+}
+
+/*
+#borda{
+	text-shadow: rgb(43, 191, 255) 3px 0px 0px, rgb(43, 191, 255) 2.83487px 0.981584px 0px, rgb(43, 191, 255) 2.35766px 1.85511px 0px, rgb(43, 191, 255) 1.62091px 2.52441px 0px, rgb(43, 191, 255) 0.705713px 2.91581px 0px, rgb(43, 191, 255) -0.287171px 2.98622px 0px, rgb(43, 191, 255) -1.24844px 2.72789px 0px, rgb(43, 191, 255) -2.07227px 2.16926px 0px, rgb(43, 191, 255) -2.66798px 1.37182px 0px, rgb(43, 191, 255) -2.96998px 0.42336px 0px, rgb(43, 191, 255) -2.94502px -0.571704px 0px, rgb(43, 191, 255) -2.59586px -1.50383px 0px, rgb(43, 191, 255) -1.96093px -2.27041px 0px, rgb(43, 191, 255) -1.11013px -2.78704px 0px, rgb(43, 191, 255) -0.137119px -2.99686px 0px, rgb(43, 191, 255) 0.850987px -2.87677px 0px, rgb(43, 191, 255) 1.74541px -2.43999px 0px, rgb(43, 191, 255) 2.44769px -1.73459px 0px, rgb(43, 191, 255) 2.88051px -0.838247px 0px;
+}
+
+
+span{
+	font-family:Source Han Sans; 
+	font-size:38px;
+	}
+*/	
+
+.button {
+    background-color: #1047EB;
+	border:none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+	font-family: Arial;
+    margin: 4px 2px;
+    cursor: pointer;
+	border-radius: 50%;
+	height: 70px;
+}
+
+.button0 {
+    background-color: #e7e7e7;
+    border:2px solid #FF3910;
+    color: black;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+	font-family: Arial;
+    margin: 4px 2px;
+    cursor: pointer;
+	border-radius: 32px;
+}
+
+
+div.gallery {
+  margin: 5px;
+  border: 3px solid coral;
+  border-radius: 25px;
+  float: left;
+  text-align: center;
+  height: 150px;
+}
+
+div.gallery:hover {
+  border: 3px solid #2BBFFF;
+  border-radius: 25px;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+div.desc1 {
+  padding: 15px;
+  text-align: left;
+}
+
+
+	
